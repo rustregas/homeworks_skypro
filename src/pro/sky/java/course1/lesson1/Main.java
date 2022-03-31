@@ -10,7 +10,7 @@ public class Main {
 
         book2.setPublishingYear(2005);
 
-        System.out.println("Book name: " + book1.getBookName() + "\nPublishing Year: " + book1.getPublishingYear() + "\nAuthor: " + book1.getAuthor().getFullName() + "\n");
-        System.out.println("Book name: " + book2.getBookName() + "\nPublishing Year: " + book2.getPublishingYear() + "\nAuthor: " + book2.getAuthor().getFullName() + "\n");
+        System.out.println(kyte.toString());
+        System.out.println(book1.toString());
     }
 }
