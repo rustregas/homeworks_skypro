@@ -21,7 +21,7 @@ public class Author {
 
     @Override
     public String toString() {
-        return getFirstName() + " " + getLastName();
+        return "Author: " + getFirstName() + " " + getLastName();
     }
 
     @Override

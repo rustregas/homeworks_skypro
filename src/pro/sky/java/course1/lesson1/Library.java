@@ -61,4 +61,12 @@ public class Library {
         }
     }
 
+    @Override
+    public String toString() {
+        StringBuilder str = new StringBuilder("Library: \n");
+        for (Book book : books) {
+            str.append(book.toString()).append("\n");
+        }
+        return str.toString();
+    }
 }

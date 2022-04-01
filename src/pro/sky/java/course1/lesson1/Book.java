@@ -29,13 +29,18 @@ public class Book {
         this.publishingYear = publishingYear;
     }
 
-    @Override
+//    @Override
+//    public String toString() {
+//        return  author.toString() + ':' +
+//                " " + getBookName() + ": " +
+//                getPublishingYear();
+//    }
+
     public String toString() {
-        return  '\"' + author.toString() + ':' +
-                " " + getBookName() + ": " +
-                getPublishingYear() +
-                '\"';
+        return  "Book: " + getBookName() +
+                " by " + author.toString();
     }
+
 
     @Override
     public boolean equals(Object o) {
